@@ -1,5 +1,3 @@
-function threeSum(arr, target) {
-// write your code here
 	function threeSum(S, target) {
  
 		S.sort((a, b) => a - b); 
@@ -29,8 +27,4 @@ function threeSum(arr, target) {
   }
   return closestSum; // return closest sum found
 }
-
-  
-}
-
 module.exports = threeSum;
